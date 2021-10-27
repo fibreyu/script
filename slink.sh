@@ -20,7 +20,7 @@ DEST_PATH=$(realpath ${2})
 
 # 处理
 function StartProcess() {
-  echo "process $1"
+  # echo "process $1"
   for item in "$1"/*; do
     # 文件全路径包括文件名
     local full_file_path=$(realpath "${item}")
